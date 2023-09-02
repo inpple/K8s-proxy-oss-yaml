@@ -42,7 +42,7 @@ spec:
         paths:
           - backend:
               service:
-                name: ${env}${test}-vue
+                name: ${env}${test}-${project}
                 port:
                   number: 80
             path: >-
